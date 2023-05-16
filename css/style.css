@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space Mono", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.error {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.not-found-section__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.not-found-section__img {
+  margin-bottom: 3rem;
+}
+.not-found-section__img img {
+  width: 100%;
+}
+.not-found-section__title {
+  font-size: 3rem;
+}
+.not-found-section__description {
+  margin: 2rem 0 4rem 0;
+  font-size: 1.4rem;
+}
+.not-found-section__btn {
+  padding: 2rem 2.5rem;
+  background-color: #333;
+  font-family: inherit;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .not-found-section__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .not-found-section__img img {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .not-found-section {
+    padding-top: 8rem;
+  }
+  .not-found-section__box {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 4rem;
+  }
+  .not-found-section__info {
+    width: 50%;
+  }
+  .not-found-section__img {
+    width: 50%;
+  }
+  .not-found-section__img img {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .not-found-section__title {
+    font-size: 3.6rem;
+  }
+  .not-found-section__description {
+    width: 70%;
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .not-found-section__box {
+    gap: 10rem;
+  }
+  .not-found-section__title {
+    font-size: 5.2rem;
+  }
+  .not-found-section__description {
+    width: 70%;
+    font-size: 2.2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
